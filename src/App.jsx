@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/nav/Nav';
-import AboutMe from './components/About/About';
+import AboutMe from './components/about/About';
 import SkillsSection from './components/skillsSection/SkillsSection';
 
 function App() {
