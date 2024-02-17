@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/nav/Nav';
-import AboutMe from './components/about/About';
-
+import AboutMe from './components/About/About';
+import SkillsSection from './components/skillsSection/SkillsSection';
 
 function App() {
   return (
@@ -12,6 +12,8 @@ function App() {
       <div className="content">
         <div id="about" className="section">
           <AboutMe />
+          <div><SkillsSection /></div>
+          
         </div>
         <div id="experience" className="section">
           <h2>Experience</h2>
