@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Nav';
+import Navbar from './components/nav/Nav';
+import AboutMe from './components/about/About';
 
 
 function App() {
@@ -10,8 +11,7 @@ function App() {
        <Navbar />
       <div className="content">
         <div id="about" className="section">
-          <h2>About Me</h2>
-          <p>This is the about me section.</p>
+          <AboutMe />
         </div>
         <div id="experience" className="section">
           <h2>Experience</h2>
@@ -26,6 +26,7 @@ function App() {
           <p>This section has ways to contact me.</p>
         </div>
       </div> 
+      
     </div>
   );
 }

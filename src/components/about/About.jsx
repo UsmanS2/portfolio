@@ -1,8 +1,8 @@
 // AboutMe.js
 import React from 'react';
-import './AboutMe.css';
+import './about.css';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
-import profilePic from './profile-pic.jpg'; // Import your profile picture
+import profilePic from '../../assets/profilePic.jpg'; 
 
 function AboutMe() {
   return (
@@ -12,16 +12,16 @@ function AboutMe() {
       </div>
       <div className="about-me-content">
         <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus, dolor sit amet eleifend dignissim, urna eros sodales mi, in venenatis mi elit at libero. Aliquam quis mauris sit amet odio dictum aliquet.</p>
+        <p>Hello! My name is Usman Shafi </p>
         <div className="contact-info">
           <div className="contact-item">
-            <FaEnvelope /> example@example.com
+            <FaEnvelope /> Usman.Shafi.469@gmail.com
           </div>
           <div className="contact-item">
-            <FaPhone /> +1234567890
+            <FaPhone /> (469)7771335
           </div>
           <div className="contact-item">
-            <FaMapMarkerAlt /> New York, USA
+            <FaMapMarkerAlt /> Dallas, TX
           </div>
         </div>
       </div>
